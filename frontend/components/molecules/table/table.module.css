@@ -1,0 +1,29 @@
+.mainWrapper{
+    width: 88%;
+    border-radius: 8px;
+    border: 1px solid grey;
+    overflow: hidden;
+}
+.mainWrapper>:last-child{
+    border-bottom: unset !important;
+}
+.row{
+    display: grid;
+    border-bottom: 1px solid grey;
+}
+.row>p{
+    padding: 0.6rem;
+    border-right: 1px solid grey;
+    text-align: center;
+    overflow: auto;
+}
+.row>:last-child{
+    border-right: unset;
+}
+.headerRow{
+    background-color: navy;
+}
+.headerRow>p{
+    font-weight: 600;
+    color: #fff;
+}

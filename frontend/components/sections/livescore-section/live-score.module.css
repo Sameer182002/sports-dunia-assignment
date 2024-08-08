@@ -1,0 +1,22 @@
+.filterWrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.mainWrapper{
+    padding: 2rem;
+}
+.table{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+@media screen and (min-width: 1024px){
+    .filterWrapper{
+        justify-content: flex-end;
+        padding-right: 3rem;
+
+    }
+}

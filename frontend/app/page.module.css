@@ -1,0 +1,6 @@
+.mainWrapper{
+  padding-top: 2rem;
+}
+.mainWrapper>h1{
+  text-align: center;
+}
